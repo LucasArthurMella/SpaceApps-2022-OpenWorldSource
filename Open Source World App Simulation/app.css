@@ -1,0 +1,12 @@
+.mainImage {
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+
+
+.radios {
+    font-size: 25px;
+    position: absolute;
+    top: 750px;
+    right: 1600px
+}

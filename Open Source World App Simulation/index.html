@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <img class="mainImage" src="imgs/InitialImage.png" alt="">
+
+    <div class="radios">
+        <div class="custom-control custom-radio">
+            <input type="radio" onclick="changeToTemperatureMap('imgs/1Temperature.png')" id="temperatureRadioId"
+                name="mapRadio" class="custom-control-input">
+            <label class="custom-control-label" for="temperatureRadioId">Temperature</label>
+        </div>
+        <div class="custom-control custom-radio">
+            <input type="radio" onclick="changeToTemperatureMap('imgs/2Umidity.png')" id="humidtyRadioId"
+                name="mapRadio" class="custom-control-input">
+            <label class="custom-control-label" for="humidtyRadioId">Humidity</label>
+        </div>
+
+        <div class="custom-control custom-radio">
+            <input type="radio" onclick="changeToTemperatureMap('imgs/3WindDirections.png')" id="windRadioId"
+                name="mapRadio" class="custom-control-input">
+            <label class="custom-control-label" for="windRadioId">Wind Directions</label>
+        </div>
+
+        <div class="custom-control custom-radio">
+            <input type="radio" onclick="changeToTemperatureMap('imgs/4SeaCurrents.png')" id="seaCurrentRadioId"
+                name="mapRadio" class="custom-control-input">
+            <label class="custom-control-label" for="seaCurrentRadioId">Sea Currents</label>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
